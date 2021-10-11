@@ -1,5 +1,5 @@
-//var assert = require('assert');
-import assert from 'assert'
+var assert = require('assert');
+//import assert from 'assert'
 describe('Describe 4', function() {
   describe('sub Describe 4', function() {
     it('it 3', function() {
