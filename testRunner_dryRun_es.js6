@@ -1,7 +1,7 @@
 //this example is a small modification from mochajs website and their github repo
-import fs from 'fs'
-import Mocha from 'mocha'
-import path from 'path'
+var fs require( 'fs')
+var Mocha require( 'mocha')
+var path require('path')
 
 // Instantiate a Mocha instance in dryRun mode
 var mocha = new Mocha({reporter:'list', dryRun: true});
